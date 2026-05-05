@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Users, Calendar, Star, ChevronLeft, ChevronRight, Play, Zap, Globe } from 'lucide-react';
+import { ArrowRight, Users, Star, ChevronLeft, ChevronRight, Play, Zap, Globe } from 'lucide-react';
 import { SlideIn, ScaleIn, HoverCard, Avatar } from '../components/ui';
 import api from '../utils/api';
 
