@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { useNavigate } from 'react-router-dom';
-import { User, Lock, Bell, Shield, Moon, Sun, LogOut } from 'lucide-react';
+import { User, Lock, Moon, Sun, LogOut } from 'lucide-react';
 import { Avatar } from '../components/ui';
 import api from '../utils/api';
 import toast from 'react-hot-toast';

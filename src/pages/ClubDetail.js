@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+
 import { Users, Star, Calendar, MapPin, Award, UserPlus, UserMinus, CheckCircle, XCircle, Crown, Shield } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { Avatar, Badge, Spinner, FadeIn } from '../components/ui';

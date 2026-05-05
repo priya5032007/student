@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Heart, MessageCircle, Share2, Bookmark, MoreHorizontal, Image, Send, TrendingUp, Hash } from 'lucide-react';
+import { Heart, MessageCircle, Share2, Bookmark, Image, Send, TrendingUp, Hash } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { Avatar, CardSkeleton, EmptyState, FadeIn } from '../components/ui';
 import api from '../utils/api';

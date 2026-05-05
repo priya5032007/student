@@ -4,7 +4,7 @@ import { Calendar, MapPin, Users, Clock, Plus } from 'lucide-react';
 import { HoverCard, CardSkeleton, EmptyState, Badge, FadeIn } from '../components/ui';
 import { useAuth } from '../context/AuthContext';
 import api from '../utils/api';
-import { format, formatDistanceToNow, isPast } from 'date-fns';
+import { format, isPast } from 'date-fns';
 
 function CountdownTimer({ date }) {
   const [time, setTime] = useState('');

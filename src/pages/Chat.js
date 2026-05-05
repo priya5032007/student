@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { Send, Hash, MessageCircle } from 'lucide-react';
+import { Send, MessageCircle } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useSocket } from '../context/SocketContext';
 import { Avatar, Spinner } from '../components/ui';

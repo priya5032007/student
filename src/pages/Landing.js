@@ -1,8 +1,8 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Users, Calendar, Star, ChevronLeft, ChevronRight, Play, Zap, Globe, Award } from 'lucide-react';
-import { SlideIn, ScaleIn, FadeIn, HoverCard, Avatar } from '../components/ui';
+import { ArrowRight, Users, Calendar, Star, ChevronLeft, ChevronRight, Play, Zap, Globe } from 'lucide-react';
+import { SlideIn, ScaleIn, HoverCard, Avatar } from '../components/ui';
 import api from '../utils/api';
 
 const TESTIMONIALS = [
